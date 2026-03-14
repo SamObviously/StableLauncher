@@ -1,0 +1,115 @@
+﻿
+> samlauncher-sl@1.6.0 build
+> electron-vite build
+
+[36mvite v7.3.1 [32mbuilding ssr environment for production...[36m[39m
+transforming...
+[32m鉁?[39m 2 modules transformed.
+rendering chunks...
+[2mout/main/[22m[36mindex.js  [39m[1m[2m43.65 kB[22m[1m[22m
+[32m鉁?built in 543ms[39m
+[36mvite v7.3.1 [32mbuilding ssr environment for production...[36m[39m
+transforming...
+[32m鉁?[39m 1 modules transformed.
+rendering chunks...
+[2mout/preload/[22m[36mindex.js  [39m[1m[2m0.42 kB[22m[1m[22m
+[32m鉁?built in 12ms[39m
+[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32m鉁?[39m 2 modules transformed.
+node.exe : [31m鉁?[39m 
+Build failed in 96ms
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo       
+       : NotSpecifi    
+ed: ([31m鉁?[39m B    
+uild failed in 96m    
+s:String) [], Remo    
+teException
+    + FullyQualifiedEr   
+ rorId : NativeComm    
+andError
+ 
+[31merror during build:
+[31m[vite:vue] [plugin 
+vite:vue] 
+src/renderer/src/App.vue 
+(1780:25): Error parsing 
+JavaScript expression: 
+Unexpected token, 
+expected "," (3:18)[31m
+file: [36mD:/coding/IPA/
+MinecraftLauncher/src/ren
+derer/src/App.vue:1780:25
+[31m
+SyntaxError: [plugin 
+vite:vue] 
+src/renderer/src/App.vue 
+(1780:25): Error parsing 
+JavaScript expression: 
+Unexpected token, 
+expected "," (3:18)
+    at 
+createCompilerError (D:\c
+oding\IPA\MinecraftLaunch
+er\node_modules\@vue\comp
+iler-core\dist\compiler-c
+ore.cjs.prod.js:1374:17)
+    at emitError (D:\codi
+ng\IPA\MinecraftLauncher\
+node_modules\@vue\compile
+r-core\dist\compiler-core
+.cjs.prod.js:2980:5)
+    at createExp (D:\codi
+ng\IPA\MinecraftLauncher\
+node_modules\@vue\compile
+r-core\dist\compiler-core
+.cjs.prod.js:2973:7)
+    at 
+Object.onattribend (D:\co
+ding\IPA\MinecraftLaunche
+r\node_modules\@vue\compi
+ler-core\dist\compiler-co
+re.cjs.prod.js:2528:29)
+    at Tokenizer.handleIn
+AttrValue (D:\coding\IPA\
+MinecraftLauncher\node_mo
+dules\@vue\compiler-core\
+dist\compiler-core.cjs.pr
+od.js:959:16)
+    at Tokenizer.stateInA
+ttrValueDoubleQuotes (D:\
+coding\IPA\MinecraftLaunc
+her\node_modules\@vue\com
+piler-core\dist\compiler-
+core.cjs.prod.js:969:10)
+    at Tokenizer.parse (D
+:\coding\IPA\MinecraftLau
+ncher\node_modules\@vue\c
+ompiler-core\dist\compile
+r-core.cjs.prod.js:1113:1
+6)
+    at Object.baseParse (
+D:\coding\IPA\MinecraftLa
+uncher\node_modules\@vue\
+compiler-core\dist\compil
+er-core.cjs.prod.js:3012:
+13)
+    at Object.parse (D:\c
+oding\IPA\MinecraftLaunch
+er\node_modules\@vue\comp
+iler-dom\dist\compiler-do
+m.cjs.prod.js:665:23)
+    at Object.parse$1 
+[as parse] (D:\coding\IPA
+\MinecraftLauncher\node_m
+odules\@vue\compiler-sfc\
+dist\compiler-sfc.cjs.js:
+1824:24)[39m

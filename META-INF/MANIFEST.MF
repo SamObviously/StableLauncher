@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: ForgeWrapper
+Automatic-Module-Name: io.github.zekerzhayard.forgewrapper
+Implementation-Version: prism-2025-12-07
+Specification-Vendor: ZekerZhayard
+Multi-Release: true
+Specification-Title: ForgeWrapper
+Implementation-Timestamp: 2025-12-07T23:32:53+0000
+Specification-Version: prism
+Implementation-Vendor: ZekerZhayard
+GitCommit: 959f7668509a90d524438903ad8bda55d9e24e9d
+
