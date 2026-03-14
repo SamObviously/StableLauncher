@@ -1,65 +1,67 @@
-# 🏗️ StableLauncher 构建教学 (Build Guide)
+# 🏗️ StableLauncher Build Guide
 
-本手册将引导你如何从源代码构建 StableLauncher，并打包为可执行文件。
+> [!IMPORTANT]
+> **StableLauncher currently only supports the Windows Operating System.** Support for macOS and Linux is not currently implemented.
 
-## 1. 准备工作 (Prerequisites)
+This manual will guide you through building StableLauncher from source and packaging it into an executable.
 
-在开始之前，请确保你的系统已安装以下环境：
 
-- **Node.js**: [LTS 版本 (v18+)](https://nodejs.org/)
-- **npm**: 通常随 Node.js 一起安装
-- **Java**: 运行 Minecraft 所需的 Java 运行环境 (如果你需要测试运行)
+## 1. Prerequisites
 
-## 2. 克隆与安装 (Setup)
+Before you begin, ensure your system has the following environments installed:
 
-如果你还没有克隆仓库：
+- **Node.js**: [LTS Version (v18+)](https://nodejs.org/)
+- **npm**: Usually comes installed with Node.js
+- **Java**: A Java Runtime Environment required to run Minecraft (if you need to test the launcher)
+
+## 2. Setup
+
+If you haven't cloned the repository yet:
 
 ```bash
-git clone https://github.com/SamObviously/samlauncher-sl.git
-cd samlauncher-sl
+git clone https://github.com/SamObviously/StableLauncher.git
+cd StableLauncher
 ```
 
-安装所有项目依赖：
+Install all project dependencies:
 
 ```bash
 npm install
 ```
 
-## 3. 开发模式 (Development)
+## 3. Development Mode
 
-要在开发环境下启动启动器（实时预览修改）：
+To start the launcher in development mode (live preview changes):
 
 ```bash
 npm run dev
 ```
 
-## 4. 构建与打包 (Build & Package)
+## 4. Build & Package
 
-### 构建 Windows 版本 (.exe)
-这是最常用的构建命令，它会生成适合 Windows 的安装程序和绿色版文件夹。
+### Build Windows Version (.exe)
+This is the most common build command, which generates an installer and a portable folder for Windows.
 
 ```bash
 npm run build:win
 ```
 
-### 其他平台的构建
-如果要为其他平台打包（需要相应的操作系统环境）：
+### Building for Other Platforms
+- **macOS / Linux**: Not supported at this time.
 
-- **macOS**: `npm run build:mac`
-- **Linux**: `npm run build:linux`
 
-## 5. 输出位置 (Output)
+## 5. Output Location
 
-构建完成后，你可以在以下目录找到生成的文件：
+After building, you can find the generated files in the following directories:
 
-- **`dist/`**: 包含最终的 `.exe` 安装程序。
-- **`out/`**: 包含编译后的中间 JavaScript 代码。
+- **`dist/`**: Contains the final `.exe` installer.
+- **`out/`**: Contains the compiled intermediate JavaScript code.
 
-## 6. 常见问题排查 (Troubleshooting)
+## 6. Troubleshooting
 
-- **依赖报错**: 如果 `npm install` 失败，请尝试删除 `node_modules` 文件夹和 `package-lock.json` 后重新安装。
-- **TypeScript 错误**: 运行 `npm run typecheck` 来检查代码中的类型问题。
-- **权限问题**: 在 Windows 上构建时，请确保以普通用户或管理员身份运行终端，不要在受限的受保护文件夹中操作。
+- **Dependency Errors**: If `npm install` fails, try deleting the `node_modules` folder and `package-lock.json`, then reinstall.
+- **TypeScript Errors**: Run `npm run typecheck` to check for type issues in the code.
+- **Permission Issues**: When building on Windows, ensure you run the terminal as a normal user or administrator and avoid operating in restricted or protected folders.
 
 ---
-SamObviously - *StableLauncher Development Team*
+SamObviously - *StableLauncher Development Guy*

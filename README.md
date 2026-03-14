@@ -4,6 +4,9 @@
 
 ![StableLauncher Logo](resources/icon.png)
 
+> [!IMPORTANT]
+> **StableLauncher only supports Windows.**
+
 ## ✨ Features
 
 - **🛡️ AI Mod Shield**: Scans mod folders for suspicious patterns and cross-references with Modrinth/CurseForge to ensure safety.
@@ -25,8 +28,8 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/SamObviously/samlauncher-sl.git
-   cd samlauncher-sl
+   git clone https://github.com/SamObviously/StableLauncher.git
+   cd StableLauncher
    ```
 
 2. Install dependencies:
