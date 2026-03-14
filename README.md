@@ -3,6 +3,11 @@
 **StableLauncher** is a high-performance, modern Minecraft launcher built with Electron, Vite, and Vue 3. It features an AI-powered "Mod Shield" for security, smart JVM optimization, and a sleek, customizable interface.
 
 ![StableLauncher Logo](resources/icon.png)
+![screenshot](resources/SL1.png)
+![screenshot](resources/SL2.png)
+![screenshot](resources/SL3.png)
+![screenshot](resources/SL4.png)
+![screenshot](resources/SL5.png)
 
 > [!IMPORTANT]
 > **StableLauncher only supports Windows.**
