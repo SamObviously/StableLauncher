@@ -68,3 +68,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 Created with ❤️ by **SamObviously**
+**Note: this is my first Github project, please support!**
